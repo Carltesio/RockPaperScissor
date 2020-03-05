@@ -6,12 +6,13 @@ const winner = (userChoice, computerChoice) => {
    
       switch (true) {
         case userChoice == 'rock' && computerChoice == 'paper':
-          return result = 'Computer won'
+          debugger
+          return result = ('Computer chose' + ' ' + computerChoice +' ' +  'you won')
         case userChoice == 'rock' && computerChoice == 'scissor':
           return result = 'User won'
         case userChoice == 'rock' && computerChoice == 'rock':
           return result = 'tied'
-  
+
         case userChoice == 'paper' && computerChoice == 'paper':
           return result = 'tied'
         case userChoice == 'paper' && computerChoice == 'rock':
