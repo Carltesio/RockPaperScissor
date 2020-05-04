@@ -64,7 +64,7 @@ describe("Page can show results", () => {
 
       it('user picks rock equals a lost', () => {
         cy.get("#ROCK").click();
-        cy.get("#result").should('contain', 'Computer chose scissor you lost')
+        cy.get("#result").should('contain', 'Computer chose scissor you wongit ')
         })
       
       })
