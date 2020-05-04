@@ -1,4 +1,4 @@
-This project is one of the challenges of the [Craft academy](https://github.com/CraftAcademy) learning path.
+This project is one of the challenges from [Craft academy](https://github.com/CraftAcademy) fullstack developer Bootcamp.
 
 ## Authors
 
